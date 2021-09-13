@@ -372,9 +372,9 @@ function notify() {
     var hours = n.getHours();
     var minutes = n.getMinutes();
     var dayOfWeekNumber = n.getDay();
-    const notification = new Notification("JOIN SOON!", {
+    var notification = new Notification("JOIN SOON!", {
         body: x
-    })
+    });
 
 //SUNDAY
  if (dayOfWeekNumber == 0) {
