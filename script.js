@@ -373,8 +373,8 @@ function notify() {
     var minutes = n.getMinutes();
     var dayOfWeekNumber = n.getDay();
     var notification = new Notification("JOIN SOON!", {
-        body: x;
-        icon: A.jpg;
+        body: x,
+        icon: A.jpg,
     });
 
 //SUNDAY
