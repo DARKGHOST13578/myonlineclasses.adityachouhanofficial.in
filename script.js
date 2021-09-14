@@ -760,6 +760,7 @@ function bgi() {
     else {
         document.body.style.backgroundImage = "url('https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/04/24/816623-815222-avengersendgame-houseful.jpg')"
     }
+  
 
 
 }  
