@@ -567,15 +567,15 @@ function bgi() {
     }
 
     else if (dayOfWeekNumber == 2 && hours == 20) {
-        document.body.style.backgroundImage = "url('https://images.wallpapersden.com/image/download/loki-disney-plus-2021_bGxra2aUmZqaraWkpJRmZ21lrWxnZQ.jpg')"
+        document.body.style.backgroundImage = "url('https://thedirect.s3.amazonaws.com/media/article_full/loki-disney-plus-tva-mcu-marvel.jpg')"
     }
 
     else if (dayOfWeekNumber == 2 && hours == 18) {
-        document.body.style.backgroundImage = "url('https://images.wallpapersden.com/image/download/avengers-infinity-war-official-poster_a2ZubmiUmZqaraWkpJRmbmdlrWZlbWU.jpg')"
+        document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/302800.jpg')"
     }
 
     else if (dayOfWeekNumber == 2 && hours == 19) {
-        document.body.style.backgroundImage = "url('https://images.hdqwalls.com/download/xiaomi-mi-gaming-laptop-abstract-4k-hl-1280x720.jpg')"
+        document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/930558.jpg')"
     }
 
 
@@ -596,7 +596,7 @@ function bgi() {
     }
 
     else if (dayOfWeekNumber == 3 && hours == 10) {
-        document.body.style.backgroundImage = "url('https://images.hdqwalls.com/download/xiaomi-mi-gaming-laptop-abstract-4k-hl-1280x720.jpg')"
+        document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/930558.jpg')"
     }
 
     else if (dayOfWeekNumber == 3 && hours == 11) {
