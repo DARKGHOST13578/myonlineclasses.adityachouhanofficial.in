@@ -343,6 +343,13 @@ function logined() {
     else if (name == "mineboy1461" && pd == "RAHUL2009") {        
         document.getElementById('id01').style.display = "none"
         document.getElementById('bod').style.filter = ""
+    }    else if (name == "mineboy1461" && pd == "RAHUL2009") {        
+        document.getElementById('id01').style.display = "none"
+        document.getElementById('bod').style.filter = ""
+    }
+    else if (name == "maithreya" && pd == "5252") {        
+        document.getElementById('id01').style.display = "none"
+        document.getElementById('bod').style.filter = ""
     }
     else if (name == "" && pd == "") {
         alert('PLEASE FILL OUT BOTH USERNAME FIELD AND PASSWORD FIELD')
@@ -352,9 +359,6 @@ function logined() {
     } 
     else if (pd == "") {
         alert('PLEASE FILL OUT PASSWORD FIELD')
-    }
-    else if (name == "" && pd == "") {
-        alert('PLEASE FILL OUT BOTH USERNAME FIELD AND PASSWORD FIELD')
     }
     else {
         alert('LOGIN FAILED')
