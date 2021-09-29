@@ -147,86 +147,9 @@ document.oncontextmenu = function(e)
 
 
 //SCHOOL
-   else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 9 && minutes < 41) {
-    document.getElementById("all").innerHTML = "हिंदी HINDI  CLASS  BASHEER  SIR 09:00 AM TO 09:40 AM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=fdb49ce36e704844b6f7e6c49a6bb95702014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   } 
-
-   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 9 && minutes < 41) {
-    document.getElementById("all").innerHTML = "SCIENCE CLASS SRI LAKSHMI MAM 09:00 AM TO 09:40 AM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=6fa3d21073c04b588a1d090b8a2156fc02014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (hours == 9 && minutes > 39) {
-    document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:40 AM TO 10:20 AM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=7e50320fbea24c3dbf5592a39e40793302014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (hours == 10 && minutes < 21) {
-    document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:40 AM TO 10:20 AM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=7e50320fbea24c3dbf5592a39e40793302014404923&in=shsgwrl2100s"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (hours == 10 && minutes > 19) {
-    document.getElementById("all").innerHTML = "తెలుగు TELUGU CLASS RAMESH SIR 10:20 AM TO 11:00 AM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=377e0184bd324baab772dfb0e34f68d302014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 11 && minutes > 11 && minutes < 51) {
-    document.getElementById("all").innerHTML = "SOCIAL CLASS AZIZ SIR 11:10 AM TO 11:50 AM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=a58ff8369b4c494eb74bce942e371a9002014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 11 && minutes > 11 && minutes < 51) {
-    document.getElementById("all").innerHTML = "ENGLISH CLASS PREM SIR 11:10 AM TO 11:50 AM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=f85f1f8656bf4bd2b5c4e1db83dbc69002014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (hours == 11 && minutes > 49) {
-    document.getElementById("all").innerHTML = "IIT PHYSICS CLASS SWETHA MAM 11:50 AM TO 12:30 PM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=9f187bafda3a42b69abcd65d0eb85fa002014404923&in=shsgwrl2100"  
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (hours == 12 && minutes < 31) {
-    document.getElementById("all").innerHTML = "IIT PHYSICS CLASS SWETHA MAM 11:50 PM TO 12:30 PM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=9f187bafda3a42b69abcd65d0eb85fa002014404923&in=shsgwrl2100"  
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (hours == 12 && minutes > 29) {
-    document.getElementById("all").innerHTML = "IIT MATHS CLASS NAGTEJ SIR 12:30 PM TO 01:10 PM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=b2dff58584a248cb8c8a85136c2bb55802014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-   else if (hours == 13 && minutes < 11) {
-    document.getElementById("all").innerHTML = "IIT MATHS CLASS NAGTEJ SIR 12:10 PM TO 1:00 PM"
-    document.getElementById("classes").href = "https://zoom-dot-tchrnote-remote.appspot.com/index.html?sid=b2dff58584a248cb8c8a85136c2bb55802014404923&in=shsgwrl2100"
-    document.getElementById("table3").style.display = "none"
-    document.getElementById("table1").style.display = "none"
-   }
-
-
-
-
+if (hours > 8 && hours < 17) {
+    document.getElementById("all").innerHTML = "SCHOOL STARTED (OFFLINE CLASSES)"
+}
 
 //TUTION 2
    else if (hours == 18 ) {
@@ -712,7 +635,7 @@ function bgi() {
     }
 
     else if (dayOfWeekNumber == 5 && hours == 18) {
-        document.body.style.backgroundImage = "url('https://www.thelivemirror.com/wp-content/uploads/2021/09/eternals-1280x720.jpg')"
+        document.body.style.backgroundImage = "url('https://sm.ign.com/t/ign_in/news/m/marvels-et/marvels-eternals-first-teaser-trailer-released_tqak.h720.jpg')"
     }
 
     else if (dayOfWeekNumber == 5 && hours == 19) {
