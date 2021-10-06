@@ -1,4 +1,4 @@
-                                        //THIS IS CODE SCTRUCTURE OF MY ONLINE CLASS LINKS{   
+                                          //THIS IS CODE SCTRUCTURE OF MY ONLINE CLASS LINKS{   
 setInterval(showTime, 100);
 setInterval(text, 100);
 setInterval(bgi, 100);
