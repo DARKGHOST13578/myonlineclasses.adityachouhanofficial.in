@@ -1,7 +1,7 @@
                                         //THIS IS CODE SCTRUCTURE OF MY ONLINE CLASS LINKS{   
-setInterval(showTime, 1);
-setInterval(text, 1);
-setInterval(bgi, 1);
+setInterval(showTime, 100);
+setInterval(text, 100);
+setInterval(bgi, 100);
 
 
 
@@ -121,7 +121,7 @@ document.oncontextmenu = function(e)
    else {
 
 //TUTION 1
-   if (hours == 5 && minutes > 29) {
+   if (hours == 5 && minutes > 30) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 5:30 AM TO 7:00 AM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
     document.getElementById("table2").style.display = "none"
@@ -147,7 +147,7 @@ document.oncontextmenu = function(e)
 
 
 //SCHOOL
-if (hours > 8 && hours < 17) {
+else if (hours > 8 && hours < 17) {
     document.getElementById("all").innerHTML = "SCHOOL STARTED (OFFLINE CLASSES)"
 }
 
