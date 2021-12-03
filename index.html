@@ -107,12 +107,10 @@
 </table>
 
 
-  
-  
-  
-  
-  
-<table id="table3">
+
+
+
+<table id="table2">
 <tr>
 <th>CATEGORY</th>
 
@@ -120,7 +118,7 @@
      <th>
        <ul>
          <li>1<sup>st</sup> CLASS</li>
-         <li>06:15 - 07:00</li>
+         <li>05:30 - 06:20</li>
        </ul>  
     </th>
 
@@ -128,7 +126,7 @@
     <th>
        <ul>
          <li>2<sup>nd</sup> CLASS</li>
-         <li>07:00 - 07:45</li>
+         <li>06:20 - 07:10</li>
        </ul>  
     </th>
 
@@ -136,7 +134,7 @@
     <th>
        <ul>
          <li>3<sup>rd</sup> CLASS</li>
-         <li>07:45 - 08:30</li>
+         <li>07:10 - 08:00</li>
        </ul>  
     </th>     
 </tr> 
@@ -211,44 +209,6 @@
 
 
 
-
-<script type="text/javascript">
-    //default,granted,denied
-  console.log(Notification.permission);
-
-  if (Notification.permission === "granted") {
-        notify();
-  }
-
-  else if (Notification.permission !== "denied") {
-    Notification.requestPermission().then(permission => {
-             if (Notification.permission === "granted") {
-                   notify();
-      }
-  });
-};
-
-    document.addEventListener("DOMContentLoaded", function(event) {
-       document.getElementById('id01').style.display = "block"
-    document.getElementById('bod').style.filter = "blur(15px)"  });
-</script>
-
-<script type="text/javascript">
-//REMEMBER ME
-
-  const rmCheck = document.getElementById("rememberMe");
-    var emailInput = document.getElementById("user");
-    var psInput = document.getElementById("pd");
-
-if (localStorage.checkbox && localStorage.checkbox !== "") {
-  rmCheck.setAttribute("checked", "checked");
-  emailInput.value = localStorage.username;
-  psInput.value = localStorage.password;
-} else {
-  rmCheck.removeAttribute("checked");
-  emailInput.value = "";
-}
-</script>
 
 
 </body>
