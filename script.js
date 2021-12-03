@@ -1,4 +1,4 @@
-                                          //THIS IS CODE SCTRUCTURE OF MY ONLINE CLASS LINKS{   
+                                        //THIS IS CODE SCTRUCTURE OF MY ONLINE CLASS LINKS{   
 setInterval(showTime, 100);
 setInterval(text, 100);
 setInterval(bgi, 100);
@@ -115,7 +115,7 @@ document.oncontextmenu = function(e)
     document.getElementById("all").innerHTML = ""
     document.getElementById("classes").href = ""
     document.getElementById("table1").style.display = "none"
-    document.getElementById("table3").style.display = "none"
+    document.getElementById("table2").style.display = "none"
    } 
    else {
 
@@ -123,19 +123,19 @@ document.oncontextmenu = function(e)
    if (hours == 5 && minutes > 30) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 5:30 AM TO 7:00 AM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
-    document.getElementById("table3").style.display = "none"
+    document.getElementById("table2").style.display = "none"
   }
 
    else if (hours == 6) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 5:30 AM TO 7:00 AM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
-    document.getElementById("table3").style.display = "none"
+    document.getElementById("table2").style.display = "none"
   }
 
   else if (hours == 7 && minutes < 30) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 5:30 AM TO 7:00 AM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"   
-    document.getElementById("table3").style.display = "none"
+    document.getElementById("table2").style.display = "none"
   }
 
 
@@ -152,7 +152,7 @@ else if (hours > 8 && hours < 17) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 6:00 PM TO 8:30 PM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
     document.getElementById("table1").style.display = "none"
-   }
+  }
   
    else if (hours == 19) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 6:00 PM TO 8:30 PM"
@@ -175,7 +175,7 @@ else if (hours > 8 && hours < 17) {
     document.getElementById("classes").href = ""
     document.getElementById("no").innerHTML = "NO CLASS IS STREAMING NOW"
     document.getElementById("table1").style.display = "none"
-    document.getElementById("table3").style.display = "none"
+    document.getElementById("table2").style.display = "none"
       }
 
 
@@ -218,7 +218,7 @@ else if (hours > 8 && hours < 17) {
 
 document.getElementById("table1").style.display = "block";
 document.getElementById("table2").style.display = "block";
-document.getElementById("table3").style.display = "block"
+document.getElementById("table2").style.display = "block"
 
 
 
