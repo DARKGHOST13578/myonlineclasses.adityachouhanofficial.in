@@ -5,6 +5,46 @@ setInterval(bgi, 100);
 
 
 
+
+
+    //default,granted,denied
+  console.log(Notification.permission);
+
+  if (Notification.permission === "granted") {
+        notify();
+  }
+
+  else if (Notification.permission !== "denied") {
+    Notification.requestPermission().then(permission => {
+             if (Notification.permission === "granted") {
+                   notify();
+      }
+  });
+};
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+       document.getElementById('id01').style.display = "block"
+    document.getElementById('bod').style.filter = "blur(15px)"  });
+
+//REMEMBER ME
+
+  const rmCheck = document.getElementById("rememberMe");
+    var emailInput = document.getElementById("user");
+    var psInput = document.getElementById("pd");
+
+if (localStorage.checkbox && localStorage.checkbox !== "") {
+  rmCheck.setAttribute("checked", "checked");
+  emailInput.value = localStorage.username;
+  psInput.value = localStorage.password;
+} else {
+  rmCheck.removeAttribute("checked");
+  emailInput.value = "";
+}
+
+
+
+
+
 //PREVENT KEYCODES
 document.onkeydown = function(event)
     {
