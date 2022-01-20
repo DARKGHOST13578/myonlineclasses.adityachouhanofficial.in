@@ -243,7 +243,7 @@ document.oncontextmenu = function(e)
     document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
-   else if (hours == 15 && minutes < 9 && minutes > 51) {
+   else if (hours == 15 && minutes > 9 && minutes < 51) {
     document.getElementById("all").innerHTML = "IIT MATHS CLASS NAGTEJ SIR 03:10 PM TO 03:50 PM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/9685212865?pwd=dFlQRDhKL2N6K2JQSmRxM0NRTDAwdz09#success"
     document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
