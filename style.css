@@ -1,3 +1,4 @@
+                                            /*THIS THE CODE STRUCTURE OF MY ONLINE CLASS LINKS*/
 /*CLASS*/
 #all {
      color: white;
@@ -7,14 +8,14 @@
      font-size: 40px;
      cursor: pointer;
 }
-#no {
+.a {
      color: white;
      font-family: 'Lobster', cursive;
-     font-size: 40px;
 }
 .b {
      color: orange;
      font-size: 25px;
+     font-family: 'Lobster', cursive;
 }
 #clock {
       font-size: 44px;
@@ -106,15 +107,6 @@ input:focus {
   to {transform: scale(1)}
 }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 1010px;
-  align-self: center;
-  font-size: 11px;
-  backdrop-filter: blur(20px);
-  color: blue;
-}
 
 td, th {
   border: 1px solid black;
@@ -130,3 +122,4 @@ ul {
 body {
   background-size: 100%;
 }  
+                                               /* MADE BY ADITYA CHOUHAN.M */
