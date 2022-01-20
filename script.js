@@ -400,9 +400,85 @@ function logined() {
 
 //NOTIFY
 function notify() {
+    var n = new Date();
+    var hours = n.getHours();
+    var minutes = n.getMinutes();
+    var dayOfWeekNumber = n.getDay();
     var notification = new Notification("CLASS STARTED!", {
-        body: "JOIN YOUR CLASS SOON",
-    });}
+        body: "",
+        icon: "A.jpg"
+    });
+
+
+
+           if (hours == 5 && minutes > 30) {
+            notification.body
+  }
+
+   else if (hours == 6) {
+    notify().body = ""
+  }
+
+  else if (hours == 7 && minutes < 30) {
+  }
+
+
+
+//SCHOOL
+           else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 9 && minutes < 41) {
+   } 
+
+   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 9 && minutes < 41) {
+   }
+
+   else if (hours == 9 && minutes > 49) {
+   }
+
+   else if (hours == 10 && minutes < 31) {
+   }
+
+   else if (hours == 10 && minutes > 39) {
+   }
+
+   else if (hours == 11 && minutes < 21) {
+   }
+
+   else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 11 && minutes > 29) {
+   }
+
+   else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 12 && minutes < 11) {
+   }
+
+   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 11 && minutes > 29) {
+   }
+
+   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 12 && minutes < 11) {
+   }
+
+   else if (hours == 13 && minutes > 29) {
+   }
+
+   else if (hours == 14 && minutes < 11) {
+   }
+
+   else if (hours == 14 && minutes > 19) {
+   }
+
+   else if (hours == 15 && minutes > 9 && minutes < 51) {
+   }
+
+
+//TUTION 2
+           else if (hours == 18 ) {
+  }
+  
+   else if (hours == 19) {
+  }
+
+   else if (hours == 20 && minutes < 31) {
+    notify().body = "chemistry class started"
+  }
+}
 
 
 
