@@ -476,7 +476,7 @@ function notify() {
   }
 
    else if (hours == 20 && minutes < 31) {
-    notify().body = "chemistry class started"
+    notify().body.innerHTML = "chemistry class started"
   }
 }
 
