@@ -1,7 +1,7 @@
                                         //THIS IS CODE SCTRUCTURE OF MY ONLINE CLASS LINKS//   
-setInterval(showTime, 1);
-setInterval(text, 1);
-setInterval(bgi, 1);
+setInterval(showTime, 100);
+setInterval(text, 100);
+setInterval(bgi, 100);
 
 
 
@@ -131,22 +131,22 @@ document.oncontextmenu = function(e)
            if (hours == 5 && minutes > 30) {
     document.getElementById("all").innerHTML = "TUTION STUDY HOURS TIMINGS 5:30 AM TO 7:00 AM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
   }
 
    else if (hours == 6) {
     document.getElementById("all").innerHTML = "TUTION STUDY HOURS TIMINGS 5:30 AM TO 7:00 AM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
   }
 
   else if (hours == 7 && minutes < 30) {
     document.getElementById("all").innerHTML = "TUTION STUDY HOURS TIMINGS 5:30 AM TO 7:00 AM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"   
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
   }
 
 
@@ -155,99 +155,99 @@ document.oncontextmenu = function(e)
            else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 9 && minutes < 41) {
     document.getElementById("all").innerHTML = "ENGLISH CLASS JEEVAN SIR 9:00 A TO 9:40AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/9569214251?pwd=MVNwNkRhWElPTmxpazBkUVZuZ2lpZz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    } 
 
    else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 9 && minutes < 41) {
     document.getElementById("all").innerHTML = "SOCIAL CLASS FARZANA MAM 09:00 AM TO 09:40 AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/2022786585?pwd=WHRPaGFKMGpjN09XaWpkV0NST2Qvdz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (hours == 9 && minutes > 49) {
     document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:50 AM TO 10:30 AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/7706149246?pwd=YS96dDd3b1MrK2pOSTFmc0h2WVdwZz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (hours == 10 && minutes < 31) {
     document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:50 AM TO 10:30 AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/7706149246?pwd=YS96dDd3b1MrK2pOSTFmc0h2WVdwZz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (hours == 10 && minutes > 39) {
     document.getElementById("all").innerHTML = "SCIENCE CLASS SWETHA MAM 10:40 AM TO 11:20 AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/2251852346?pwd=cGY3NUUxWHREYWl4MjlJZTlobGtHZz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS = 225 185 2346"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 225 185 2346"
     document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = sciswe23"
    }
 
    else if (hours == 11 && minutes < 21) {
     document.getElementById("all").innerHTML = "SCIENCE CLASS SWETHA MAM 10:40 AM TO 11:20 AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/2251852346?pwd=cGY3NUUxWHREYWl4MjlJZTlobGtHZz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS = 225 185 2346"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 225 185 2346"
     document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = sciswe23"
    }
 
    else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 11 && minutes > 29) {
     document.getElementById("all").innerHTML = "हिंदी HINDI  CLASS  BASHEER  SIR 11:30 AM TO 12:10 PM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/4812910424?pwd=RGhST3RtZGYyR2pxNStodzM5STVDQT09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 12 && minutes < 11) {
     document.getElementById("all").innerHTML = "हिंदी HINDI  CLASS  BASHEER  SIR 11:30 AM TO 12:10 PM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/4812910424?pwd=RGhST3RtZGYyR2pxNStodzM5STVDQT09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 11 && minutes > 29) {
     document.getElementById("all").innerHTML = "తెలుగు TELUGU CLASS SHUBHA RANI MAM 11:30 AM TO 12:10 PM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/9257716263?pwd=UFgyRFRXM3B0d0t1b05mUkRUb3J0UT09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
-   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 12 && minutes > 11) {
+   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 12 && minutes < 11) {
     document.getElementById("all").innerHTML = "తెలుగు TELUGU CLASS SHUBHA RANI MAM 11:30 AM TO 12:10 PM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/9257716263?pwd=UFgyRFRXM3B0d0t1b05mUkRUb3J0UT09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (hours == 13 && minutes > 29) {
     document.getElementById("all").innerHTML = "IIT PHYSICS CLASS PRADEEP SIR 01:30 PM TO 02:10 PM"
     document.getElementById("classes").href = "https://us04web.zoom.us/j/8497371316?pwd=UTdRQUlDNEZkS0J5WUhMcmprSzhMQT09#success"  
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (hours == 14 && minutes < 11) {
     document.getElementById("all").innerHTML = "IIT PHYSICS CLASS PRADEEP SIR 01:30 PM TO 02:10 PM"
     document.getElementById("classes").href = "https://us04web.zoom.us/j/8497371316?pwd=UTdRQUlDNEZkS0J5WUhMcmprSzhMQT09#success"  
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (hours == 14 && minutes > 19) {
     document.getElementById("all").innerHTML = "IIT CHEMISTRY CLASS LAVANYA MAM 02:20 PM TO 03:00 PM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/6844417292?pwd=c29qNlE5eHBPcFdsRGFkTnluNXA3QT09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
    else if (hours == 15 && minutes < 9 && minutes > 51) {
     document.getElementById("all").innerHTML = "IIT MATHS CLASS NAGTEJ SIR 03:10 PM TO 03:50 PM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/9685212865?pwd=dFlQRDhKL2N6K2JQSmRxM0NRTDAwdz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
    }
 
 
@@ -255,22 +255,22 @@ document.oncontextmenu = function(e)
            else if (hours == 18 ) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 6:00 PM TO 8:30 PM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
   }
   
    else if (hours == 19) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 6:00 PM TO 8:30 PM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
   }
 
    else if (hours == 20 && minutes < 31) {
     document.getElementById("all").innerHTML = "TUTION CLASS TIMINGS 6:00 PM TO 8:30 PM"
     document.getElementById("classes").href = "https://us02web.zoom.us/j/3883317582?pwd=QmNRNk5FU0l0VkwxaWVPbnFaVi9PZz09"
-    document.getElementById("ID").innerHTML = "THE MEETIN ID IS"
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
   }
 
 
