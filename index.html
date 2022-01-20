@@ -14,7 +14,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
 <meta charset="UTF-8">
 
 
@@ -42,148 +41,12 @@
 <img src=""; id="img">
             
 <div id="clock">00:00:00</div>
-<h1 id="no"; style="color: darkred;"></h1>
+<h1 id="no"; class="a"; style="font-size: 40px;"></h1>
    <a href=""; id="classes"; target="_blank"><h1 id="all"></h1></a>
 
 
-
-<i>
-<b>
-<table id="table1">
-<tr>
-<th>CATEGORY</th>
-
-
-     <th>
-       <ul>
-         <li>1<sup>st</sup> HOUR</li>
-         <li>05:30 - 06:10</li>
-       </ul>  
-    </th>
-
-
-    <th>
-       <ul>
-         <li>2<sup>nd</sup> HOUR</li>
-         <li>06:10 - 06:50</li>
-       </ul>  
-    </th>
-
-
-    <th>
-       <ul>
-         <li>3<sup>rd</sup> HOUR</li>
-         <li>06:50 - 07:30</li>
-       </ul>  
-    </th>
-</tr> 
-
-
-
-<tr>
-<td>STUDY HOUR</td>
-
-
-    <td>
-       <ul>
-         <li>IIT MATHS</li>
-       </ul>
-    </td>
-
-
-    <td>
-       <ul>
-         <li>IIT CHEMISTRY</li>
-       </ul>
-    </td>
-
-
-    <td>
-       <ul>
-         <li>IIT PHYSICS</li>
-       </ul>
-    </td>
-</tr>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table id="table2">
-<tr>
-<th>CATEGORY</th>
-
-
-     <th>
-       <ul>
-         <li>1<sup>st</sup> CLASS</li>
-         <li>05:30 - 06:20</li>
-       </ul>  
-    </th>
-
-
-    <th>
-       <ul>
-         <li>2<sup>nd</sup> CLASS</li>
-         <li>06:20 - 07:10</li>
-       </ul>  
-    </th>
-
-
-    <th>
-       <ul>
-         <li>3<sup>rd</sup> CLASS</li>
-         <li>07:10 - 08:00</li>
-       </ul>  
-    </th>     
-</tr> 
-
-
-
-<tr>
-<td>TUTION CLASS</td>
-
-
-    <td>
-       <ul>
-         <li>IIT MATHS</li>
-       </ul>
-    </td>
-
-
-    <td>
-       <ul>
-         <li>IIT CHEMISTRY</li>
-       </ul>
-    </td>
-
-
-    <td>
-       <ul>
-         <li>IIT PHYSICS</li>
-       </ul>
-    </td>
-</tr>
-</table>
-</b>
-</i>
-
-
-
-
-
-<h2 id="ID"></h2>
-<h2 id="PW"></h2>
+<h1 id="ID"; class="a"; style="font-size: 20px;"></h1>
+<h1 id="PW"; class="a"; style="font-size: 20px;"></h1>
 
 
 
@@ -223,6 +86,57 @@
 
 
 
+
+
+<script type="text/javascript">
+
+
+    //default,granted,denied
+  console.log(Notification.permission);
+
+  if (Notification.permission === "granted") {
+        notify();
+  }
+
+  else if (Notification.permission !== "denied") {
+    Notification.requestPermission().then(permission => {
+             if (Notification.permission === "granted") {
+                   notify();
+      }
+  });
+};
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+       document.getElementById('id01').style.display = "block"
+    document.getElementById('bod').style.filter = "blur(15px)"  });
+
+
+  
+</script>
+
+
+
+<script type="text/javascript">
+
+
+
+
+//REMEMBER ME
+
+  const rmCheck = document.getElementById("rememberMe");
+    var emailInput = document.getElementById("user");
+    var psInput = document.getElementById("pd");
+
+if (localStorage.checkbox && localStorage.checkbox !== "") {
+  rmCheck.setAttribute("checked", "checked");
+  emailInput.value = localStorage.username;
+  psInput.value = localStorage.password;
+} else {
+  rmCheck.removeAttribute("checked");
+  emailInput.value = "";
+}
+  
+</script>
 
 
 </body>
