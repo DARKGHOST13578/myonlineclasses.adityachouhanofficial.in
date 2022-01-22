@@ -28,7 +28,7 @@
 
 <script type="text/javascript"; src="script.js"></script>
 
-<body id="body">
+<body id="body"; onload="notifythem()">
 
 
 
@@ -94,6 +94,7 @@
 
 <script type="text/javascript">
 
+function notifythem() { 
 
     //default,granted,denied
   console.log(Notification.permission);
@@ -111,7 +112,7 @@
     document.addEventListener("DOMContentLoaded", function(event) {
        document.getElementById('id01').style.display = "block"
     document.getElementById('bod').style.filter = "blur(15px)"  });
-
+}
 
   
 </script>
