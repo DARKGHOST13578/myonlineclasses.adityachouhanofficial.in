@@ -25,7 +25,7 @@
 </head>
 
 
-  
+
 <script type="text/javascript"; src="script.js"></script>
 
 <body id="body">
@@ -39,10 +39,10 @@
 <h1 id="phrase"; class="b"></h1>
 
 <img src=""; id="img">
-            
+
 <div id="clock">00:00:00</div>
 <h1 id="no"; class="a"; style="font-size: 40px;"></h1>
-   <a href=""; id="classes"; target="_blank"><h1 id="all"></h1></a>
+<a href=""; id="classes"; target="_blank"><h1 id="all"></h1></a>
 
 
 <h1 id="ID"; class="a"; style="font-size: 20px;"></h1>
@@ -51,18 +51,22 @@
 
 
 <div id="div";>
-<a href="https://support2-dot-tchrnote-remote.appspot.com/parentlogin?eid=2100"; target="_blank">SCHOOL WEBSITE</a>
+ <a href="https://support2-dot-tchrnote-remote.appspot.com/parentlogin?eid=2100"; target="_blank">SCHOOL WEBSITE</a>
 
-<a href="https://qpass-dot-tchrnote-remote.appspot.com/login/index.html?instance=WSMI-WRL-2122"; target="_blank">TUTION EXAM LINK</a>
+ <a href="https://qpass-dot-tchrnote-remote.appspot.com/login/index.html?instance=WSMI-WRL-2122"; target="_blank">TUTION EXAM LINK</a>
 
  <a href="https://qpass-dot-tchrnote-remote.appspot.com/login/index.html?instance=SHSG-WRL-2100"; target="_blank">SCHOOL EXAM LINK</a>
 
  <a href="http://login.hireachbroadband.com/login"; target="_blank">LOGIN TO NETWORK</a>
 
  <a href="https://darkghost13578.github.io/periodictable.adityachouhanofficial.in/"; target="_blank">PERIODIC TABLE</a>
+</div>
+
 
 </div>
-</div>
+
+
+
 <div id="id01" class="modal">
   
   <div class="modal-content animate animout">
@@ -96,7 +100,10 @@
 
   if (Notification.permission !== "denied") {
     Notification.requestPermission()
-};
+}
+  else if(document.getElementById("all").innerHTML !== "" && document.getElementById("classes").href !== ""){
+    notify()
+  }
 
     document.addEventListener("DOMContentLoaded", function(event) {
        document.getElementById('id01').style.display = "block"
