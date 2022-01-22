@@ -127,6 +127,46 @@ document.oncontextmenu = function(e)
 
    else{
 
+
+
+
+   else if (hours == 5 && minutes == 30) {
+         notify();
+  }
+
+    else if (hours == 9 && minutes == 0) {
+         notify();
+   } 
+
+   else if (hours == 9 && minutes == 50) {
+         notify();
+   }
+
+   else if (hours == 10 && minutes == 40) {
+         notify();
+   }
+
+   else if (hours == 11 && minutes == 30) {
+         notify();
+   }
+
+   else if (hours == 13 && minutes == 30) {
+         notify();
+   }
+
+   else if (hours == 14 && minutes == 20) {
+         notify();
+   }
+
+   else if (hours == 15 && minutes == 10) {
+         notify();
+   }
+
+   else if (hours == 18 && minutes == 0) {
+         notify();
+  }
+
+
 //TUTION 1
            if (hours == 5 && minutes > 30) {
     document.getElementById("all").innerHTML = "TUTION STUDY HOURS TIMINGS 5:30 AM TO 7:00 AM"
@@ -344,43 +384,6 @@ document.oncontextmenu = function(e)
 }
 
 
-
-   else if (hours == 5 && minutes == 30) {
-         notify();
-  }
-
-    else if (hours == 9 && minutes == 0) {
-         notify();
-   } 
-
-   else if (hours == 9 && minutes == 50) {
-         notify();
-   }
-
-   else if (hours == 10 && minutes == 40) {
-         notify();
-   }
-
-   else if (hours == 11 && minutes == 30) {
-         notify();
-   }
-
-   else if (hours == 13 && minutes == 30) {
-         notify();
-   }
-
-   else if (hours == 14 && minutes == 20) {
-         notify();
-   }
-
-   else if (hours == 15 && minutes == 10) {
-         notify();
-   }
-
-   else if (hours == 18 && minutes == 0) {
-         notify();
-  }
-
 }
 
 
@@ -455,14 +458,10 @@ function logined() {
 
 //NOTIFY
 function notify() {
-    var n = new Date();
-    var notification = new Notification("CLASS STARTED!", {
+    const notification = new Notification("CLASS STARTED!", {
         body: "JOIN YOUR CLASS SOON",
         icon: "A.jpg"
-    });
-
-
-}
+    });}
 
 
 
