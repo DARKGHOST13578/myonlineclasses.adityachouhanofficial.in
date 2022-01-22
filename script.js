@@ -174,16 +174,16 @@ document.oncontextmenu = function(e)
    else if (hours == 9 && minutes > 49) {
     document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:50 AM TO 10:30 AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/7706149246?pwd=YS96dDd3b1MrK2pOSTFmc0h2WVdwZz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 770 614 9246"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = 9vV5st"
     document.getElementById("no").innerHTML = ""
    }
 
    else if (hours == 10 && minutes < 31) {
     document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:50 AM TO 10:30 AM"
     document.getElementById("classes").href = "https://us05web.zoom.us/j/7706149246?pwd=YS96dDd3b1MrK2pOSTFmc0h2WVdwZz09#success"
-    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
-    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 770 614 9246"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = 9vV5st"
     document.getElementById("no").innerHTML = ""
    }
 
@@ -345,11 +345,10 @@ document.oncontextmenu = function(e)
 
 
 
-           else if (hours == 5 && minutes == 30) {
+   else if (hours == 5 && minutes == 30) {
     notify()
   }
 
-//SCHOOL
            else if (hours == 9 && minutes == 0) {
     notify()
    } 
@@ -378,16 +377,10 @@ document.oncontextmenu = function(e)
     notify()
    }
 
-//TUTION 2
-           else if (hours == 18 && minutes == 0) {
+   else if (hours == 18 && minutes == 0) {
     notify()
   }
 
-  
-
-
-document.getElementById("table1").style.display = "block";
-document.getElementById("table2").style.display = "block";
 }
 
 
@@ -464,7 +457,7 @@ function logined() {
 function notify() {
     var n = new Date();
     var notification = new Notification("CLASS STARTED!", {
-        body: "JOIN SOON",
+        body: "JOIN YOUR CLASS SOON",
         icon: "A.jpg"
     });
 
