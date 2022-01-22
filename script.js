@@ -2,8 +2,10 @@
 setInterval(showTime, 1);
 setInterval(text, 1);
 setInterval(bgi, 1);
+setInterval(notifyme, 1);
 
- 
+
+
 
 
 
@@ -98,46 +100,6 @@ document.oncontextmenu = function(e)
             document.getElementById("clock")
                 .innerHTML = currentTime;
 
-
-            
-
-//Notify
-
-   if (hours == 5 && minutes == 30) {
-         notify();
-  }
-
-    else if (hours == 9 && minutes == 0) {
-         notify();
-   } 
-
-   else if (hours == 9 && minutes == 50) {
-         notify();
-   }
-
-   else if (hours == 10 && minutes == 40) {
-         notify();
-   }
-
-   else if (hours == 11 && minutes == 30) {
-         notify();
-   }
-
-   else if (hours == 13 && minutes == 30) {
-         notify();
-   }
-
-   else if (hours == 14 && minutes == 20) {
-         notify();
-   }
-
-   else if (hours == 15 && minutes == 10) {
-         notify();
-   }
-
-   else if (hours == 18 && minutes == 0) {
-         notify();
-  }
 }
 
 
@@ -388,6 +350,55 @@ document.oncontextmenu = function(e)
 
 
 }
+
+
+
+function notifyme() {
+    var n = new Date();
+    var hours = n.getHours();
+    var minutes = n.getMinutes();
+
+
+
+            
+
+//Notify
+
+   if (hours == 5 && minutes == 30) {
+         notify();
+  }
+
+    else if (hours == 9 && minutes == 0) {
+         notify();
+   } 
+
+   else if (hours == 9 && minutes == 50) {
+         notify();
+   }
+
+   else if (hours == 10 && minutes == 40) {
+         notify();
+   }
+
+   else if (hours == 11 && minutes == 30) {
+         notify();
+   }
+
+   else if (hours == 13 && minutes == 30) {
+         notify();
+   }
+
+   else if (hours == 14 && minutes == 20) {
+         notify();
+   }
+
+   else if (hours == 15 && minutes == 10) {
+         notify();
+   }
+
+   else if (hours == 18 && minutes == 0) {
+         notify();
+  };}
 
 
 
