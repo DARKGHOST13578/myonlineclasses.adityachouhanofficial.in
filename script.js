@@ -96,41 +96,14 @@ document.oncontextmenu = function(e)
                 + min + ":" + sec + am_pm;  
   
             document.getElementById("clock")
-                .innerHTML = currentTime;}
+                .innerHTML = currentTime;
 
 
+            
 
+//Notify
 
-
-
-
-
-
-
-//CLASSES
-        function text() {
-    var n = new Date();
-    var y = n.getFullYear();
-    var m = n.getMonth() + 1;
-    var d = n.getDate();
-    var hours = n.getHours();
-    var minutes = n.getMinutes();
-    var dayOfWeekNumber = n.getDay();
-
-//SUNDAY
-   if (dayOfWeekNumber == 0) {
-    document.getElementById("all").innerHTML = ""
-    document.getElementById("classes").href = ""
-    document.getElementById("ID").innerHTML = ""
-    document.getElementById("PW").innerHTML = ""
-   } 
-
-   else{
-
-
-
-
-   else if (hours == 5 && minutes == 30) {
+   if (hours == 5 && minutes == 30) {
          notify();
   }
 
@@ -165,6 +138,36 @@ document.oncontextmenu = function(e)
    else if (hours == 18 && minutes == 0) {
          notify();
   }
+}
+
+
+
+
+
+
+
+
+
+
+//CLASSES
+        function text() {
+    var n = new Date();
+    var y = n.getFullYear();
+    var m = n.getMonth() + 1;
+    var d = n.getDate();
+    var hours = n.getHours();
+    var minutes = n.getMinutes();
+    var dayOfWeekNumber = n.getDay();
+
+//SUNDAY
+   if (dayOfWeekNumber == 0) {
+    document.getElementById("all").innerHTML = ""
+    document.getElementById("classes").href = ""
+    document.getElementById("ID").innerHTML = ""
+    document.getElementById("PW").innerHTML = ""
+   } 
+
+   else{
 
 
 //TUTION 1
