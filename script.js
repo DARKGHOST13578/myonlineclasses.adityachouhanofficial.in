@@ -3,7 +3,7 @@ setInterval(showTime, 1);
 setInterval(text, 1);
 setInterval(bgi, 1);
 
-
+ 
 
 
 
