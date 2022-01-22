@@ -346,39 +346,39 @@ document.oncontextmenu = function(e)
 
 
    else if (hours == 5 && minutes == 30) {
-    notify()
+         notify();
   }
 
-           else if (hours == 9 && minutes == 0) {
-    notify()
+    else if (hours == 9 && minutes == 0) {
+         notify();
    } 
 
    else if (hours == 9 && minutes == 50) {
-    notify()
+         notify();
    }
 
    else if (hours == 10 && minutes == 40) {
-    notify()
+         notify();
    }
 
    else if (hours == 11 && minutes == 30) {
-    notify()
+         notify();
    }
 
    else if (hours == 13 && minutes == 30) {
-    notify()
+         notify();
    }
 
    else if (hours == 14 && minutes == 20) {
-    notify()
+         notify();
    }
 
    else if (hours == 15 && minutes == 10) {
-    notify()
+         notify();
    }
 
    else if (hours == 18 && minutes == 0) {
-    notify()
+         notify();
   }
 
 }
