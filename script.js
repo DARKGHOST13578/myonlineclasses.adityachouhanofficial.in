@@ -3,6 +3,7 @@ setInterval(showTime, 1);
 setInterval(text, 1);
 setInterval(bgi, 1);
 setInterval(notifyme, 1);
+setTimeout(notifythem, 1)
 
 
 
@@ -353,10 +354,31 @@ document.oncontextmenu = function(e)
 
 
 
+
+
+function notifythem() { 
+
+    //default,granted,denied
+  console.log(Notification.permission);
+
+  if (Notification.permission !== "denied") {
+    Notification.requestPermission().then(permission => {
+        console.log(permission);
+      });}
+
+  else if (document.getElementById("all").innerHTML !== "" && document.getElementById("classes").href !== "") {
+       notify();
+  };}
+
+
+
+
+
 function notifyme() {
     var n = new Date();
     var hours = n.getHours();
     var minutes = n.getMinutes();
+    var seconds = n.getSeconds();
 
 
 
@@ -364,39 +386,39 @@ function notifyme() {
 
 //Notify
 
-   if (hours == 5 && minutes == 30) {
+   if (hours == 5 && minutes == 30 && seconds == 0) {
          notify();
   }
 
-    else if (hours == 9 && minutes == 0) {
+    else if (hours == 9 && minutes == 0 && seconds == 0) {
          notify();
    } 
 
-   else if (hours == 9 && minutes == 50) {
+   else if (hours == 9 && minutes == 50 && seconds == 0) {
          notify();
    }
 
-   else if (hours == 10 && minutes == 40) {
+   else if (hours == 10 && minutes == 40 && seconds == 0) {
          notify();
    }
 
-   else if (hours == 11 && minutes == 30) {
+   else if (hours == 11 && minutes == 30 && seconds == 0) {
          notify();
    }
 
-   else if (hours == 13 && minutes == 30) {
+   else if (hours == 13 && minutes == 30 && seconds == 0) {
          notify();
    }
 
-   else if (hours == 14 && minutes == 20) {
+   else if (hours == 14 && minutes == 20 && seconds == 0) {
          notify();
    }
 
-   else if (hours == 15 && minutes == 10) {
+   else if (hours == 15 && minutes == 10 && seconds == 0) {
          notify();
    }
 
-   else if (hours == 18 && minutes == 0) {
+   else if (hours == 18 && minutes == 0 && seconds == 0) {
          notify();
   };}
 
