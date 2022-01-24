@@ -3,7 +3,7 @@ setInterval(showTime, 1);
 setInterval(text, 1);
 setInterval(bgi, 1);
 setInterval(notifyme, 1);
-setTimeout(notifythem, 1)
+const myTimeout = setTimeout(notifythem, 1);
 
 
 
