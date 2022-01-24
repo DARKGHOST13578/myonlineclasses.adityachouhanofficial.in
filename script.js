@@ -3,8 +3,6 @@ setInterval(showTime, 1);
 setInterval(text, 1);
 setInterval(bgi, 1);
 setInterval(notifyme, 1);
-const myTimeout = setTimeout(notifythem, 1);
-
 
 
 
@@ -354,21 +352,6 @@ document.oncontextmenu = function(e)
 
 
 
-
-
-function notifythem() { 
-
-    //default,granted,denied
-  console.log(Notification.permission);
-
-  if (Notification.permission !== "denied") {
-    Notification.requestPermission().then(permission => {
-        console.log(permission);
-      });}
-
-  else if (document.getElementById("all").innerHTML !== "" && document.getElementById("classes").href !== "") {
-       notify();
-  };}
 
 
 
