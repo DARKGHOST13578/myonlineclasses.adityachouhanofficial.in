@@ -481,7 +481,7 @@ function notify() {
         body: "JOIN YOUR CLASS SOON",
         icon: "A.jpg"
 
-    ;});}
+    });}
 
 
 
