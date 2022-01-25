@@ -480,7 +480,11 @@ function notify() {
     const notification = new Notification("CLASS STARTED!", {
         body: "JOIN YOUR CLASS SOON",
         icon: "A.jpg"
-    });}
+
+        notification.onclick = (e) => {
+             window.location.href = "https://darkghost13578.github.io/myonlineclasses.adityachouhanofficial.in/"
+
+    };});}
 
 
 
