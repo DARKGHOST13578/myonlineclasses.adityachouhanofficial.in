@@ -8,6 +8,11 @@
      font-size: 40px;
      cursor: pointer;
 }
+.republic {
+      color: rebeccapurple;
+      text-align: center;
+      font-size: 40px;
+}
 .a {
      color: bisque;
      font-family: 'Lobster', cursive;
