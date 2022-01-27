@@ -364,10 +364,7 @@ function notifyme() {
     var hours = n.getHours();
     var minutes = n.getMinutes();
     var seconds = n.getSeconds();
-
-
-
-            
+           
 
 //Notify
 
@@ -455,7 +452,7 @@ function logined() {
         document.getElementById('bod').style.filter = ""
     }
     else if (name == "" && pd == "") {
-        alert('PLEASE FILL OUT BOTH USERNAME FIELD AND PASSWORD FIELD')
+        alert('PLEASE FILL OUT BOTH USERNAME FIELD AND PASSWORD FIELD IF YOU WANT TO LOGIN CONTACT ADITYA')
     }
     else if (name == "") {
         alert('PLEASE FILL OUT USERNAME FIELD')
@@ -479,16 +476,68 @@ function logined() {
 
 //NOTIFY
 function notify() {
+    var n = new Date();
+    var y = n.getFullYear();
+    var m = n.getMonth() + 1;
+    var d = n.getDate();
+    var hours = n.getHours();
+    var minutes = n.getMinutes();
+    var dayOfWeekNumber = n.getDay();
     const notification = new Notification("CLASS STARTED!", {
         body: "JOIN YOUR CLASS SOON",
         icon: "A.jpg",
 
     });
 
+
+
+   if (hours == 5 && minutes > 30) {
          notification.onclick = (e) => {
-            window.location.href = "https://darkghost13578.github.io/myonlineclasses.adityachouhanofficial.in/"
-         }
-}
+   window.location.href = "";}
+  }
+
+    else if (hours == 9) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+   } 
+
+   else if (hours == 9 && minutes > 50) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+   }
+
+   else if (hours == 10 && minutes > 40) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+   }
+
+   else if (hours == 11 && minutes > 30) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+   }
+
+   else if (hours == 13 && minutes > 30) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+   }
+
+   else if (hours == 14 && minutes > 20) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+   }
+
+   else if (hours == 15 && minutes > 10) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+   }
+   
+   else if (hours == 18 && minutes == 0) {
+         notification.onclick = (e) => {
+   window.location.href = "";}
+  }
+
+    };
+
 
 
 
