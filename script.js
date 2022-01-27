@@ -160,12 +160,118 @@ document.oncontextmenu = function(e)
 
 //SCHOOL
 
-  else if(hours > 9 && hours < 4) {
-    document.getElementById("all").innerHTML = "HOLIDAY"
-    document.getElementById("classes").href = ""
-    document.getElementById("ID").innerHTML = ""
-    document.getElementById("PW").innerHTML = ""
-  }
+           else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 9 && minutes < 41) {
+    document.getElementById("all").innerHTML = "ENGLISH CLASS JEEVAN SIR 9:00 A TO 9:40AM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/9569214251?pwd=MVNwNkRhWElPTmxpazBkUVZuZ2lpZz09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("no").innerHTML = ""
+   } 
+
+   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 9 && minutes < 41) {
+    document.getElementById("all").innerHTML = "SOCIAL CLASS FARZANA MAM 09:00 AM TO 09:40 AM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/2022786585?pwd=WHRPaGFKMGpjN09XaWpkV0NST2Qvdz09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 202 278 6585"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = iDd9fP"
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 9 && minutes > 49) {
+    document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:50 AM TO 10:30 AM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/7706149246?pwd=YS96dDd3b1MrK2pOSTFmc0h2WVdwZz09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 770 614 9246"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = 9vV5st"
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 10 && minutes < 31) {
+    document.getElementById("all").innerHTML = "MATHS CLASS FAREED SIR 09:50 AM TO 10:30 AM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/7706149246?pwd=YS96dDd3b1MrK2pOSTFmc0h2WVdwZz09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 770 614 9246"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = 9vV5st"
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 10 && minutes > 39) {
+    document.getElementById("all").innerHTML = "SCIENCE CLASS SWETHA MAM 10:40 AM TO 11:20 AM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/2251852346?pwd=cGY3NUUxWHREYWl4MjlJZTlobGtHZz09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 225 185 2346"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = sciswe23"
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 11 && minutes < 21) {
+    document.getElementById("all").innerHTML = "SCIENCE CLASS SWETHA MAM 10:40 AM TO 11:20 AM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/2251852346?pwd=cGY3NUUxWHREYWl4MjlJZTlobGtHZz09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 225 185 2346"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = sciswe23"
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 11 && minutes > 29) {
+    document.getElementById("all").innerHTML = "हिंदी HINDI  CLASS  BASHEER  SIR 11:30 AM TO 12:10 PM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/4812910424?pwd=RGhST3RtZGYyR2pxNStodzM5STVDQT09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (dayOfWeekNumber > 0 && dayOfWeekNumber < 4 && hours == 12 && minutes < 11) {
+    document.getElementById("all").innerHTML = "हिंदी HINDI  CLASS  BASHEER  SIR 11:30 AM TO 12:10 PM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/4812910424?pwd=RGhST3RtZGYyR2pxNStodzM5STVDQT09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 11 && minutes > 29) {
+    document.getElementById("all").innerHTML = "తెలుగు TELUGU CLASS SHUBHA RANI MAM 11:30 AM TO 12:10 PM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/9257716263?pwd=UFgyRFRXM3B0d0t1b05mUkRUb3J0UT09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (dayOfWeekNumber > 3 && dayOfWeekNumber < 7 && hours == 12 && minutes < 11) {
+    document.getElementById("all").innerHTML = "తెలుగు TELUGU CLASS SHUBHA RANI MAM 11:30 AM TO 12:10 PM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/9257716263?pwd=UFgyRFRXM3B0d0t1b05mUkRUb3J0UT09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 13 && minutes > 29) {
+    document.getElementById("all").innerHTML = "IIT PHYSICS CLASS PRADEEP SIR 01:30 PM TO 02:10 PM"
+    document.getElementById("classes").href = "https://us04web.zoom.us/j/8497371316?pwd=UTdRQUlDNEZkS0J5WUhMcmprSzhMQT09#success"  
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 849 737 1316"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = Manasa2506"
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 14 && minutes < 11) {
+    document.getElementById("all").innerHTML = "IIT PHYSICS CLASS PRADEEP SIR 01:30 PM TO 02:10 PM"
+    document.getElementById("classes").href = "https://us04web.zoom.us/j/8497371316?pwd=UTdRQUlDNEZkS0J5WUhMcmprSzhMQT09#success"  
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 849 737 1316"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = Manasa2506"
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 14 && minutes > 19) {
+    document.getElementById("all").innerHTML = "IIT CHEMISTRY CLASS LAVANYA MAM 02:20 PM TO 03:00 PM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/6844417292?pwd=c29qNlE5eHBPcFdsRGFkTnluNXA3QT09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = "
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = "
+    document.getElementById("no").innerHTML = ""
+   }
+
+   else if (hours == 15 && minutes > 9 && minutes < 51) {
+    document.getElementById("all").innerHTML = "IIT MATHS CLASS NAGTEJ SIR 03:10 PM TO 03:50 PM"
+    document.getElementById("classes").href = "https://us05web.zoom.us/j/9685212865?pwd=dFlQRDhKL2N6K2JQSmRxM0NRTDAwdz09#success"
+    document.getElementById("ID").innerHTML = "THE MEETING ID IS = 968 521 2865"
+    document.getElementById("PW").innerHTML = "THE MEETING PASSWORD IS = Shine Maths"
+    document.getElementById("no").innerHTML = ""
+   }
+
 
 
 //TUTION 2
@@ -493,9 +599,45 @@ function bgi() {
 
 
 //WEDNESDAY
- else if (dayOfWeekNumber == 3) {
-    document.body.style.backgroundImage = "url(https://images.tv9hindi.com/wp-content/uploads/2022/01/Republic-Day-Wishes.jpg)"
- }
+       else if (dayOfWeekNumber == 3 && hours == 5) {
+        document.body.style.backgroundImage = "url('https://i.redd.it/pu0jj25bclg61.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 6) {
+        document.body.style.backgroundImage = "url('https://wallpaper.dog/large/10941597.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 9) {
+        document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/2040737.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 10) {
+        document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/930558.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 11) {
+        document.body.style.backgroundImage = "url('https://images.wallpapersden.com/image/download/red-eclipse-digital-art_bGlqaGqUmZqaraWkpJRmZ21lrWxnZQ.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 12) {
+        document.body.style.backgroundImage = "url('https://wallpapercave.com/wp/wp4470734.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 13) {
+        document.body.style.backgroundImage = "url('https://wallpapercave.com/wp/wp4470747.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 20) {
+        document.body.style.backgroundImage = "url('https://cdnb.artstation.com/p/assets/images/images/012/987/297/large/jacques-munezero-car-version-2-19.jpg?1537490118')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 18) {
+        document.body.style.backgroundImage = "url('https://www.teahub.io/photos/full/87-871740_hd-wallpapers-hd-1280-x-720.jpg')"
+    }
+
+    else if (dayOfWeekNumber == 3 && hours == 19) {
+        document.body.style.backgroundImage = "url('https://images.hdqwalls.com/download/2021-tesla-roadster-5k-7z-1280x720.jpg')"
+    }
 
 
 
