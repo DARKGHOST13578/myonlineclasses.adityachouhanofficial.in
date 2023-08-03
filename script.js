@@ -1,7 +1,7 @@
                                         //THIS IS CODE SCTRUCTURE OF MY ONLINE CLASS LINKS//   
                                         setInterval(showTime, 1);
                                         setInterval(text, 1);
-                                        setInterval(bgi, 60000);
+                                        setInterval(bgi, 1000);
                                         setInterval(notifyme, 1);
                                         
                                         
